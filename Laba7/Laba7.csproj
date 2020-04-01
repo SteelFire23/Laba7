@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="LibMath">
+      <HintPath>..\..\..\..\Desktop\LibraryC#\LibMath\LibMath\bin\Debug\LibMath.dll</HintPath>
+    </Reference>
+    <Reference Include="LibPrint">
+      <HintPath>..\..\..\..\Desktop\LibraryC#\LibPrint\LibPrint\bin\Debug\LibPrint.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
